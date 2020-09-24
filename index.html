@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic HTML5</title>
+</head>
+<body>
+  <h1>HELLO WORLD</h1>
+  <h2>This a Basic HTML page</h2>
+  <h2>NOTE: HTML without CSS is very very UGLY!!!🤢 and everything on this page is going to look like crap because there is no styling.</h2>
+  <h2>Here's what you can do with basic HTML</h2>
+
+  <!-- HEADINGS -->
+  <h1>This is a H1 heading</h1>
+  <h2>This is a H2 heading</h2>
+  <h3>This is a H3 heaing</h3>
+  <h4>This is a H4 heading</h4>
+  <h5>This is a H5 heading</h5>
+  <h6>This is a H6 heading</h6>
+
+  <!-- PARAGRAPHS -->
+  <p>You can create a paragraph <b>with a bold text</b> <em>and an  italicized text</em></p>
+  <p>This is another paragraph</p>
+
+  <!-- LINE BREAK -->
+  <h3>You can create a line break</h3>
+  <br>
+
+  <!-- HORIZONTAL RULE -->
+  <h3>You can create a horizontal rule</h3>
+  <hr>
+
+  <!-- IMAGE -->
+  <h3>You can add an image to this page</h3>
+  <img src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Black iphone 7 on brown table">
+
+  <!-- LINK -->
+  <h3>You can add a link to this page. Click the link below.</h3>
+  <a href="https://www.freecodecamp.org/" target="_blank">Learn to code at home</a>
+
+  <!-- TURN AN IMAGE TO A LINK -->
+  <h3>You can also turn an image to a link. Click on the image below and see where it takes you</h3>
+  <a href="https://www.pexels.com/photo/white-and-pink-hello-you-card-4068013/" target="_blank"><img src="https://images.pexels.com/photos/4068013/pexels-photo-4068013.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="White and pink hello you card"></a>
+
+  <!-- UNORDERED LISTS -->
+  <h3>You can create an unordered or bulleted list</h3>
+  <ul>
+    <li>Cake</li>
+    <li>Sugar</li>
+    <li>Chocolate</li>
+    <li>Coffee</li>
+    <li>Tea</li>
+  </ul>
+
+  <!-- ORDERED LISTS -->
+  <h3>You can create an ordered list using 'numbers' which is the default numbering</h3>
+  <ol>
+    <li>Wake up</li>
+    <li>Bathe</li>
+    <li>Dress up</li>
+    <li>Eat breakfast</li>
+    <li>Head out</li>
+  </ol>
+
+  <h3>You can change the type of ordered list you want, let's make our list use 'letters' instead</h3>
+  <ol type="A">
+    <li>Wake up</li>
+    <li>Bathe</li>
+    <li>Dress up</li>
+    <li>Eat breakfast</li>
+    <li>Head out</li>
+  </ol>
+
+  <h3>You can also change the type to 'roman numerals'</h3>
+  <ol type="I">
+    <li>Wake up</li>
+    <li>Bathe</li>
+    <li>Dress up</li>
+    <li>Eat breakfast</li>
+    <li>Head out</li>
+  </ol>
+
+  <!-- NESTED LISTS -->
+  <h3>You can create a nested list</h3>
+  <ul>
+    <li>Chocolate</li>
+    <li>Cake
+      <ul>
+        <li>Flour</li>
+        <li>Butter</li>
+        <li>Sugar</li>
+      </ul>
+    </li>
+    <li>Ice-cream</li>
+    <li>Milkshake</li>
+  </ul>
+
+  <!-- TABLES -->
+  <h3>You can create tables which are used for tabular data</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Max</td>
+        <td>Dylan</td>
+        <td>Payne</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Max</td>
+        <td>Doe</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>Jean</td>
+        <td>Doe</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Liam</td>
+        <td>Wick</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- FORMS -->
+  <h3>You can create a form with a submit button</h3>
+  <form>
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+    </div><br>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+    </div><br>
+    <div>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" cols="50" rows="5"></textarea>
+    </div><br>
+    <div>
+      <label for="sex">Sex</label>
+      <select name="sex" id="sex">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div><br>
+    <input type="submit" value="Submit">
+  </form> 
+
+  <!-- RADIO BUTTONS -->
+  <h3>You can create a form with radio buttons</h3>
+  <form>
+    <input type="radio" id="HTML" name="lang" value="HTML">
+    <label for="HTML">HTML</label><br>
+    <input type="radio" id="CSS" name="lang" value="CSS">
+    <label for="CSS">CSS</label><br>
+    <input type="radio" id="JavaScript" name="lang" value="JavaScript">
+    <label for="JavaScript">JavaScript</label>
+  </form>
+
+  <!-- CHECKBOXES -->
+  <h3>You can create a form with checkboxes</h3>
+  <form>
+    <input type="checkbox" id="lang1" name="lang1" value="HTML">
+    <label for="lang1">HTML</label><br>
+    <input type="checkbox" id="lang2" name="lang2" value="CSS">
+    <label for="lang2">CSS</label><br>
+    <input type="checkbox" id="lang3" name="lang3" value="JavaScript">
+    <label for="lang3">JavaScript</label>
+  </form>
+</body>
+</html>
+
+
